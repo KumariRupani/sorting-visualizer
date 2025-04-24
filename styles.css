@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: rgb(29, 211, 41);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin: 20px auto;
+  }
+  
+  #array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    background: linear-gradient(to top, #00f2fe, #4facfe);
+    margin: 0 1px;
+    width: 5px;
+  }
+  #sort {
+    background-color: #0c0cdb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #sort:hover {
+    background-color: #e00430; /* Darker green on hover */
+  }
+  
+  

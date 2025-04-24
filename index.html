@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SortScope - Sorting Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>SortScope - Sorting Visualizer</h1>
+  
+  <div class="controls">
+    <label>
+        <label id="algo-label" style="display: none;"></label>
+      <select id="algo-select">
+        <option value="">-- Select Sorting Algorithm --</option>
+        <option value="bubble">Bubble Sort</option>
+        <option value="insertion">Insertion Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="merge">Merge Sort</option>
+        <option value="quick">Quick Sort</option>
+      </select>
+    </label>
+    <label>Array Size:
+      <input type="range" id="array-size" min="10" max="100" value="50">
+    </label>
+
+    <label>Speed:
+      <input type="range" id="speed" min="1" max="100" value="50">
+    </label>
+
+    <button id="randomize">Randomize Array</button>
+    <button id="sort">Sort</button>
+  </div>
+
+  <div id="array-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
