@@ -19,7 +19,7 @@ An interactive, beginner-friendly visualizer for popular sorting algorithms – 
 - GitHub Pages (for hosting)
 
 ## 🙋‍♀️ Created by
-**Kumari Rupani**  
+**Rupani Kumari**  
 GitHub: [@KumariRupani](https://github.com/KumariRupani)
 
 ---
